@@ -32,6 +32,7 @@ table, th, td {
     font-family: cursive;
     color: gold;
     font-weight: bold;
+    opacity: 0.5;
 }
 body{
     background-image:
@@ -44,7 +45,22 @@ font-size: medium;
 }
 .has{
     color: gold;
+   
 }
 .had{
     color: gold;
+  
+}
+.nurda{
+    color: gold;
+   
+}
+.dima{
+    color: gold;
+   
+}
+img{
+    margin-left: 100px;
+    width: 900px;
+    height: 500px;
 }
