@@ -1,15 +1,23 @@
-body{
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
     margin: 0;
     padding: 0;
+    background-image:
+    url('https://media.istockphoto.com/id/922129940/photo/backdrop-room-two.webp?b=1&s=170667a&w=0&k=20&c=Igvltz0LwHCbFSViVwBdk_v6Kv5k-fGD6X3y43cvu9A=')    
 }
-.Sun{
+
+.Sun {
     text-align: center;
     font-family: cursive;
     color: gold;
     font-weight: bold;
     opacity: 0.5;
 }
-.ar{
+
+.ar {
     font-size: 30px;
     margin-top: 10px;
    margin-left: 680px;
@@ -17,68 +25,73 @@ body{
 
 
 }
-  .ar1{
+  .ar1 {
     font-size: 30px;
     margin-top: 10px;
    margin-left: 680px;
    color: gold;
   }
-.Talk{
+
+.Talk {
     text-align: center;
     font-family: cursive;
     color: gold;
     font-weight: bold;
     opacity: 0.5;
 }
-body{
-    background-image:
-url(https://media.istockphoto.com/id/922129940/photo/backdrop-room-two.webp?b=1&s=170667a&w=0&k=20&c=Igvltz0LwHCbFSViVwBdk_v6Kv5k-fGD6X3y43cvu9A=)    
-}
-p{
+
+p {
     color: grey;
-font-family: 'Times New Roman', Times, serif;
-font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
 }
-.has{
-    color: gold;
-   
-}
-#had{
-    color: gold;
-  
-}
-.nurda ,.dima{
+
+.has {
     color: gold;
    
 }
 
-img{
+#had {
+    color: gold;
+  
+}
+
+.nurda, .dima {
+    color: gold;
+   
+}
+
+img {
     margin-left: 100px;
     width: 900px;
     height: 500px;
 }
-*{
-    font-family: Arial, Helvetica, sans-serif;
-}
-.green{
+
+.green {
     color: gold;
 }
-.bold{
+
+.bold {
     font-weight: bold;
 }
-[href]{
+
+[href] {
     color: blueviolet;
 }
-img[src*='YD4pFLDyzMyqBzso5xF5USR05hxqGuXf']{
+
+img[src*='YD4pFLDyzMyqBzso5xF5USR05hxqGuXf'] {
     margin-left: 540px;
 }
-.ar:hover{
+
+.ar:hover {
     background-color: chartreuse;
 }
-h5.m{
+
+h5.m {
     color: gold !important;
     
 }
+
 .ull li{
     color: gold;
 }
