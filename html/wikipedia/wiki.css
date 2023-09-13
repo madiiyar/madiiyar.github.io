@@ -14,13 +14,7 @@ body{
     margin-top: 10px;
    margin-left: 680px;
    color: gold;
-
 }
-table, th, td {
-    border: 1px solid gold;
-    border-collapse: collapse;
-
-  }
   .ar1{
     font-size: 30px;
     margin-top: 10px;
@@ -47,20 +41,32 @@ font-size: medium;
     color: gold;
    
 }
-.had{
+#had{
     color: gold;
   
 }
-.nurda{
+.nurda ,.dima{
     color: gold;
    
 }
-.dima{
-    color: gold;
-   
-}
+
 img{
     margin-left: 100px;
     width: 900px;
     height: 500px;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.green{
+    color: gold;
+}
+.bold{
+    font-weight: bold;
+}
+[href]{
+    color: blueviolet;
+}
+img[src*='YD4pFLDyzMyqBzso5xF5USR05hxqGuXf']{
+    margin-left: 540px;
 }
