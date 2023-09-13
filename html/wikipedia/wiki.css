@@ -14,6 +14,8 @@ body{
     margin-top: 10px;
    margin-left: 680px;
    color: gold;
+
+
 }
   .ar1{
     font-size: 30px;
@@ -69,4 +71,14 @@ img{
 }
 img[src*='YD4pFLDyzMyqBzso5xF5USR05hxqGuXf']{
     margin-left: 540px;
+}
+.ar:hover{
+    background-color: chartreuse;
+}
+h5.m{
+    color: gold !important;
+    
+}
+.ull li{
+    color: gold;
 }
