@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.Sun{
+    text-align: center;
+    font-family: cursive;
+    color: gold;
+    font-weight: bold;
+    opacity: 0.5;
+}
+.ar{
+    font-size: 30px;
+    margin-top: 10px;
+   margin-left: 680px;
+   color: gold;
+
+}
+table, th, td {
+    border: 1px solid gold;
+    border-collapse: collapse;
+
+  }
+  .ar1{
+    font-size: 30px;
+    margin-top: 10px;
+   margin-left: 680px;
+   color: gold;
+  }
+.Talk{
+    text-align: center;
+    font-family: cursive;
+    color: gold;
+    font-weight: bold;
+}
+body{
+    background-image:
+url(https://media.istockphoto.com/id/922129940/photo/backdrop-room-two.webp?b=1&s=170667a&w=0&k=20&c=Igvltz0LwHCbFSViVwBdk_v6Kv5k-fGD6X3y43cvu9A=)    
+}
+p{
+    color: grey;
+font-family: 'Times New Roman', Times, serif;
+font-size: medium;
+}
+.has{
+    color: gold;
+}
+.had{
+    color: gold;
+}
