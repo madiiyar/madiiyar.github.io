@@ -10,10 +10,12 @@ body {
     position: relative;
     width: 100%;
     max-width: 1000px;
-    min-height: 100px;
+    min-height: 1000px;
     background: #fff;
+    margin: -10px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2.5fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
 }
 
 .container .left-side {
@@ -26,4 +28,45 @@ body {
     position: relative;
     background: #fff;
     padding: 40px;
+}
+h1 {
+    color: #fff;
+    font-size: 1.5em;
+}
+
+h2 {
+    color: #fff;
+    font-size: 01.2em;
+}
+
+img {
+    width: 240px; height: 240px; border-radius: 180px;
+}
+
+.aboutme li {
+    color: white;
+}
+
+li a {
+    color: white;
+}
+
+li a:hover {
+    color: lightblue;
+}
+
+.right-side {
+   color: #003147; 
+}
+
+h3 {
+    font-size: 1.7em;
+}
+
+.left-side {
+    color: white
+}
+
+footer {
+    text-align: center;
 }
