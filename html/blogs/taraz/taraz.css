@@ -1,5 +1,5 @@
 body {
-	background: #e6e6e6;
+	background: #ffc400;
 }
 
 nav ul {
@@ -7,7 +7,7 @@ nav ul {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #010e80;
+	background-color:rgb(222, 148, 0);
 	display: table;
 	width: 100%;
 }
@@ -63,11 +63,11 @@ img {
 
 aside {
 	left: 10px;
-	border: 1px solid black;
+	border: 1px solid rgb(222, 148, 0);
 	padding: 15px;
 	max-width: 80%;
 	position: relative;
-	border-color: #010e80;
+	border-color: rgb(143, 95, 0);
 	border-width: 5px;
 	font-size: 18px;
 }
@@ -76,7 +76,7 @@ footer {
 	position: relative;
 	width: 100%;
 	bottom: -100px;
-	background-color: #010e80;
+	background-color: rgb(222, 148, 0);
 }
 
 footer p {
