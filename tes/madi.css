@@ -1,0 +1,29 @@
+body {
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100ph;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 100px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.container .left-side {
+    position: relative;
+    background: #003147;
+    padding: 40px;
+}
+
+.container .right-side {
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
