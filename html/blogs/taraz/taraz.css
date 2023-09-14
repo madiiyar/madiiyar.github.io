@@ -1,5 +1,5 @@
 body {
-	background: #ffc400;
+	background-image: url('https://i.pinimg.com/736x/ed/d2/d6/edd2d65b4e1a9a0e8197b5c639cbc4ef.jpg');
 }
 
 nav ul {
@@ -7,7 +7,7 @@ nav ul {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color:rgb(222, 148, 0);
+	background-color:rgba(205, 152, 8, 0.767);
 	display: table;
 	width: 100%;
 }
@@ -25,7 +25,7 @@ li a {
 }
 
 li a:hover {
-	background-color: #111;
+	background-color: rgb(213, 149, 0);
 }
 
 h2 a {
@@ -35,7 +35,7 @@ h2 a {
 }
 
 h2 a:hover {
-	background-color: #111;
+	background-color: rgb(213, 149, 0);
 }
 
 figcaption{
