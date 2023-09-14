@@ -1,43 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Resume</title>
+    <title>MyResume</title>
     <link rel="stylesheet" href="myresume.css">
 </head>
 <body>
-    <figure>
-        <img src="https://i.pinimg.com/236x/56/f3/07/56f307105388e78b1dba354b4f2ac47c.jpg" alt="my photo">
-    </figure>
- <header>
-        <h1>Akylbek Madiyar</h1>
-        <h2>WEB-Devoloper, Designer</h2>
- </header>
- <aside>
-    <ul>
-        <li><a href="#about">ABOUT ME</a></li>
-        <li><a href="#EDUCATION">EDUCATION</a></li>
-        <li><a href="#CERTIFICATIONS">CERTIFICATIONS</a></li>
-        <li><a href="#PROFESSIONAL">PROFESSIONAL EXPERIENCE</a></li>
-        <li><a href="#Tech">TECHNICAL SKILLS</a></li>
-        <li><a href="#skills">SKILLS</a></li>
-        <li><a href="#til">LANGUAGES</a></li>
-        <li><a href="#end">CONCLUSION</a></li>
-    </ul>
- </aside>
- <main>
-        <section>
-            <article>
-                <h3 id="about">ABOUT ME</h3>
-                 <p> My full name is Akylbek Madiyar Didaruly. I am 18 years old.I am from Kazkhstan(Taraz)
-                I consider my self a responsible and orderly person.
-                    I am a highly motivated and results-driven professional with a proven track record of success in IT.
-                     With 2 years of experience, I have developed a strong expertise in Computer skills.
-                    I have enough knowledge in the IT field.
-                     I can be a WEB-Developer and Designer.
-                    I am looking foward for my work experience.</p>
-                   
-            </article>
-        </section>
+    <div class="container">
+
+
+
+        <div class="left-side">
+
+            <figure>
+                <img src="https://i.pinimg.com/236x/56/f3/07/56f307105388e78b1dba354b4f2ac47c.jpg" alt="my photo">
+            </figure>
+
+         <header>
+                <h1 >Akylbek Madiyar</h1>
+                <h2>WEB-Devoloper, Designer</h2>
+         </header> 
+
+         <aside>
+            <ul class="aboutme">
+                <li><a href="#about">ABOUT ME</a></li>
+                <li><a href="#EDUCATION">EDUCATION</a></li>
+                <li><a href="#CERTIFICATIONS">CERTIFICATIONS</a></li>
+                <li><a href="#PROFESSIONAL">PROFESSIONAL EXPERIENCE</a></li>
+                <li><a href="#Tech">TECHNICAL SKILLS</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#til">LANGUAGES</a></li>
+                <li><a href="#end">CONCLUSION</a></li>
+            </ul>
+         </aside>  
+
+         <aside>
+            <h3 id="Tech">TECHNICAL SKILLS</h3>
+            <ul>
+                <li><strong>WEB-Developer</strong> (HTML, CSS, Javascript)</li>
+                <li><strong>Design</strong> (CSS,Adobe Photoshop,UI,UX)</li>
+                <li><strong>Math</strong> (Basic math, arithmetic, statistics, algebra)</li>
+                <li><strong>Computer Skills</strong> (MS Office, Google Drive, spreadsheets, email)</li>
+                <li><strong>Programming Skills</strong> (C#, SQL, Java, C++, HTML, JavaScript)</li>
+            </ul>
+        </aside>
+
+        <aside>
+            <h3 id="skills">SKILLS</h3>
+            <ul>
+                <li>Team Work</li>
+                <li>Creativity</li>
+                <li>Punctuality</li>
+                <li>Communication</li>
+                <li>Problem-solving</li>
+                <li>Leadership</li>
+                <li>Time management </li>
+                <li>Critical Thinking</li>
+            </ul>
+        </aside>
+
+        <aside>
+            <h3 id="til">LANGUAGES</h3>
+            <UL>
+                <li>English</li>
+                <li>Kazakh</li>
+                <li>Russian</li>
+                <li>Arabic</li>
+                <li>Spanish</li>
+            </UL>
+        </aside>
+
+        <article>
+            <h3>CONTACT</h3>
+            <ul>
+                <li><strong>Mobile: </strong>8-776-649-2006</li>
+               <li><strong>Email: </strong><a target="_blank" href="https://mail.google.com/mail/u/1/#inbox?compose=GTvVlcSKkHbgfsbqdKFmkzNDBzPqxNdPnszBtVZCkqRhBjKLSjKKjbxHPVLFNDmSNmXSxhPzqlTdM">amadiar654@gmail.com</a></li>
+               <li><strong>GitHub: </strong><a target="_blank" href="https://github.com/madiiyar/madiiyar.github.io">madiiyar.github.io</a></li>
+            </ul>
+        </article>
+
+
+        </div>
+
+        <div class="right-side">
+
+            
+            <section>
+                <article class="aboutme">
+                    <h3 id="about">ABOUT ME</h3>
+                     <p > My full name is Akylbek Madiyar Didaruly. I am 18 years old.I am from Kazkhstan(Taraz)
+                    I consider my self a responsible and orderly person.
+                        I am a highly motivated and results-driven professional with a proven track record of success in IT.
+                         With 2 years of experience, I have developed a strong expertise in Computer skills.
+                        I have enough knowledge in the IT field.
+                         I can be a WEB-Developer and Designer.
+                        I am looking foward for my work experience.</p>
+                       <br>
+                </article>
+            </section>
+
             <aside>
                 <h3 id="EDUCATION">EDUCATION</h3>
                 <ul>
@@ -45,7 +105,9 @@
                 <li><strong>Nazarbaev University</strong> (IT Scince)</li>
                 <li><strong>Courses</strong> (CISSP, CISA, AWS)</li>
                 </ul>
+                <br>
             </aside>
+
             <aside>
                 <h3 id="CERTIFICATIONS">CERTIFICATIONS</h3>
                 <ul>
@@ -55,74 +117,45 @@
                     <li>GIAC Security Essentials.</li>
                     <li>Google Professional Cloud Architect.</li>
                 </ul>
+                <br>
             </aside>
-            <article>
-                    <h3 id="PROFESSIONAL">PROFESSIONAL EXPERIENCE</h3>
-                    <h4> Web Developer | Google | Mountain View, CA | January 2021 - December 2023</h4>
-                    <p><strong>Company Description:</strong> </p>
-            <aside>
-                <ul>
-                    <li>Google is a multinational technology company specializing in Internet-related services and products.</li>
-                </ul>
-            </aside>
-                <h4>Key Achievements and Responsibilities:</h4>
-            <aside>
-              <ul>
-               <li>Developed and maintained cutting-edge web applications, contributing to the development of Google Map and YouTube</li>
-               <li>Collaborated closely with cross-functional teams, including designers and engineers, to create user-friendly and visually appealing web experiences.</li>
-               <li>Implemented responsive design principles to ensure optimal user experiences across various devices and screen sizes.</li>
-               <li>Actively participated in code reviews and mentored junior developers, fostering a culture of continuous improvement and best practices.</li>
-              </ul>
-            </aside>
-            </article>
-           
-            <aside>
-                <h3 id="Tech">TECHNICAL SKILLS</h3>
-                <ul>
-                    <li><strong>WEB-Developer</strong> (HTML, CSS, Javascript)</li>
-                    <li><strong>Design</strong> (CSS,Adobe Photoshop,UI,UX)</li>
-                    <li><strong>Math</strong> (Basic math, arithmetic, statistics, algebra)</li>
-                    <li><strong>Computer Skills</strong> (MS Office, Google Drive, spreadsheets, email)</li>
-                    <li><strong>Programming Skills</strong> (C#, SQL, Java, C++, HTML, JavaScript)</li>
-                </ul>
-            </aside>
-            <aside>
-                <h3 id="skills">SKILLS</h3>
-                <ul>
-                    <li>Team Work</li>
-                    <li>Creativity</li>
-                    <li>Punctuality</li>
-                    <li>Communication</li>
-                    <li>Problem-solving</li>
-                    <li>Leadership</li>
-                    <li>Time management </li>
-                    <li>Critical Thinking</li>
-                </ul>
-            </aside>
-            <aside>
-                <h3 id="til">LANGUAGES</h3>
-                <UL>
-                    <li>English</li>
-                    <li>Kazakh</li>
-                    <li>Russian</li>
-                    <li>Arabic</li>
-                    <li>Spanish</li>
-                </UL>
-            </aside>
-            <article>
-                <h3 id="end">CONCLUSION</h3>
-                <p>I am excited about the opportunity to contribute my expertise and dedication to a dynamic and forward-thinking organization. With a strong foundation in IT, a proven history of delivering results, and a commitment to continuous learning and growth, I am confident in my ability to excel in any professional setting.
 
-                    If you are seeking a driven and adaptable professional who can develope your company, I invite you to connect with me to explore potential collaboration.
-                    
-                    Thank you for considering my application.</p>
-            </article>
-            
- </main>
- <footer>
-   <h4>CONTACT</h4>
-   <p><strong>Mobile: </strong>8-776-649-2006</p>
-   <p><strong>Email: </strong><a target="_blank" href="https://mail.google.com/mail/u/1/#inbox?compose=GTvVlcSKkwxFqZnjVKBHxtJZgdlSTndHKZjFrwVffbbxbwdQJPTRDZwTrMKlsdgJGRtNFdzsmNjGd">amadiar654@gmail.com</a></p>
- </footer>
+            <article>
+                <h3 id="PROFESSIONAL">PROFESSIONAL EXPERIENCE</h3>
+                <h4> Web Developer | Google | California | January 2021 - December 2023</h4>
+                <p><strong>Company Description:</strong> </p>
+        <aside>
+            <ul>
+                <li>Google is a multinational technology company specializing in Internet-related services and products.</li>
+            </ul>
+        </aside>
+            <h4>Key Achievements and Responsibilities:</h4>
+        <aside>
+          <ul>
+           <li>Developed and maintained cutting-edge web applications, contributing to the development of Google Map and YouTube</li>
+           <li>Collaborated closely with cross-functional teams, including designers and engineers, to create user-friendly and visually appealing web experiences.</li>
+           <li>Implemented responsive design principles to ensure optimal user experiences across various devices and screen sizes.</li>
+           <li>Actively participated in code reviews and mentored junior developers, fostering a culture of continuous improvement and best practices.</li>
+          </ul>
+          <br>
+        </aside>
+        </article>
+
+        <article>
+            <h3 id="end">CONCLUSION</h3>
+            <p>I am excited about the opportunity to contribute my expertise and dedication to a dynamic and forward-thinking organization. With a strong foundation in IT, a proven history of delivering results, and a commitment to continuous learning and growth, I am confident in my ability to excel in any professional setting.
+
+                If you are seeking a driven and adaptable professional who can develope your company, I invite you to connect with me to explore potential collaboration.
+                
+                Thank you for considering my application.</p>
+                <br>
+        </article>
+        </div>
+    
+
+
+     </div>
+     
+    
 </body>
 </html>
