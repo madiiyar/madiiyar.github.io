@@ -64,12 +64,15 @@ body {
   .task.square {
     background-color: khaki;
     border: 1px solid white;
+    text-align: center;
   }
   
   .task p {
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
     font-size: 12px;
+    padding-top: 45px;
+    text-align: center;
   }
   
   /* Reminders */
