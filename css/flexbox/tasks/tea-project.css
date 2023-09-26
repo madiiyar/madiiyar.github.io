@@ -1,9 +1,11 @@
 html {
 	display: block;
  }
+
  head {
 	display: none;
  }
+
  body {
 	margin: 0;
 	font-family: "Helvetica", sans-serif;
@@ -13,20 +15,24 @@ html {
 	text-align: center;
 	opacity: 0.9;
  }
- .flex-container {
+
+ .container1 {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
  }
+
  div {
 	display: block;
  }
- .main {
+
+ .glavn {
 	padding-top: 69px;
 	opacity: 0.9;
 	width: 1200px;
 	margin: auto;
  }
+
  header {
 	width: 100%;
 	position: fixed;
@@ -36,32 +42,39 @@ html {
 	border-bottom: 1px solid seashell;
 	align-items: center;
  }
+
  header img {
 	height: 50px;
 	padding-left: 10px;
  }
+
  nav {
 	text-align: right;
 	flex-grow: 1;
 	display: block;
  }
+
  nav a {
 	text-decoration: underline;
 	color: seashell;
  }
+
  nav span {
 	display: inline;
 	padding: 20px 10px;
  }
+
  #mission {
 	height: 700px;
 	background-image: url(../images/img-mission-background.jpg);
 	padding-top: 70px;
  }
+
  h2 h3 h4 {
 	margin: 0;
 	padding: 10px;
  }
+
  h2 {
 	display: block;
 	font-size: 1.5em;
@@ -71,6 +84,7 @@ html {
 	margin-inline-end: 0px;
 	font-weight: bold;
  }
+
  h4 {
 	display: block;
 	margin-block-start: 1.33em;
@@ -79,27 +93,32 @@ html {
 	margin-inline-end: 0px;
 	font-weight: bold;
  }
+
  #mission .content {
 	margin: auto;
 	background-color: black;
 	width: 100%;
  }
- #totm {
+
+ #tea {
 	height: 700px;
 	width: 1000px;
 	margin: auto;
 	padding-top: 70px;
 	display: block;
  }
+
  .items {
 	padding: 5px;
  }
+
  .items img {
 	height: 200px;
 	width: 300px;
 	margin: 10px;
 	display: block;
  }
+
  .items span {
 	display: block;
 	padding: 5px;
@@ -116,10 +135,12 @@ html {
 	margin: auto;
 	align-items: center;
  }
+
  #locations .flex-container {
 	margin: auto;
 	width: 1100px;
  }
+
  .locations {
 	opacity: 1;
 	padding: 10px;
@@ -130,9 +151,11 @@ html {
 	flex-direction: column;
 	justify-content: center;
  }
- .flex-container.location {
+
+ .container1 .location {
 	padding-top: 5px;
  }
+
  p {
 	display: block;
 	margin-block-start: 1em;
@@ -140,15 +163,18 @@ html {
 	margin-inline-start: 0px;
 	margin-inline-end: 0px;
  }
+
  #contact {
 	height: 200px;
 	display: block;
  }
+
  footer {
 	text-align: left;
 	padding-left: 20px;
 	display: block;
  }
+
  h5 {
 	display: block;
 	font-size: 0.83em;
@@ -158,12 +184,14 @@ html {
 	margin-inline-end: 0px;
 	font-weight: bold;
  }
+
  #local {
 	height: 500px;
 	background-image: url(../images/img-locations-background.jpg);
 	padding-top: 20px;
 	}
-	#locations {
+
+#locations {
 		background-image: url(../images/img-locations-background.jpg);
 		height: 500px;
 		width: 1200px;
