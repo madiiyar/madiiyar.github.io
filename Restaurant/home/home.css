@@ -33,8 +33,11 @@ body{
     height: 50%;
 
 }
+table td img{
+  width: 750px;
 
-
+  
+}
 .navbar a {
     position: relative;
     font-size: 18px;
