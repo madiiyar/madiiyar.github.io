@@ -209,26 +209,26 @@ button {
 }
 
 .Advenced h1{
-    margin-left: 110px;
+    margin-left: 90px;
     margin-bottom: 20px;
     font-size: 30px;
     color: #4a4a4a;
  }
  .Advenced p{
-     margin-left: 100px;
+     margin-left: 80px;
      font-size: 20px;
      max-width: 400px;
      text-align: center;
      color: #4a4a4a;
  }
  .Nuralibek h1{
-     margin-left: 110px;
+     margin-left: 90px;
      margin-bottom: 20px;
      font-size: 30px;
      color: #4a4a4a;
   }
   .Nuralibek p{
-      margin-left: 100px;
+      margin-left: 80px;
       font-size: 20px;
       max-width: 400px;
       text-align: center;
@@ -237,7 +237,7 @@ button {
 
   .figure {
     width: 100%;
-    height: 70vh;
+    height: 85vh;
     background-color: #4a4a4a;
     margin-top: -100px;
 }
@@ -253,11 +253,10 @@ button {
 
 .mao {
     margin-top: 32px;
-    max-width: 700px;
     height: 200px;
-    text-align: center;
-    display: flex;
     justify-content: center;
+    display: flex;
+   text-align: center;
     margin-left: 700px;
 }
 
@@ -266,7 +265,8 @@ button {
     justify-content: center;
     color: white;
     font-size: 26px;
-    margin-right: 200px;
+    margin-right: 500px;
+    margin-left: -230px;
 }
 
 .ocop-img {
@@ -299,15 +299,16 @@ button {
     margin-left: 30px;
 }
 .patok img{
+    margin-right: 100px;
     margin-left: 30px;
 }
 .footer p1{
     color: aliceblue;
-    margin-left: -1200px;
+    margin-left: -1059spx;
 }
 .footer p2{
     color: aliceblue;
-    margin-right: -400px;
+    margin-right: -500px;
 }
 .footer{
     width: 100%;
