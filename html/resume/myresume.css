@@ -81,5 +81,13 @@ footer {
     color: rgb(136, 202, 224);
 }
 
+.contact li a {
+    color: #fff;
+}
+
+.contact li a:hover {
+    color: lightblue;
+}
+
 
 
