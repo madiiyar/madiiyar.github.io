@@ -71,8 +71,15 @@ footer {
     text-align: center;
 }
 
-.madik a {
+.madik li a {
     font-size: larger;
     color: #003147;
+    
 }
+
+.madik li a:hover {
+    color: rgb(136, 202, 224);
+}
+
+
 
