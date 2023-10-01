@@ -47,11 +47,11 @@ img {
     color: white;
 }
 
-li a {
+ .aboutme li a {
     color: white;
 }
 
-li a:hover {
+.aboutme li a:hover {
     color: lightblue;
 }
 
@@ -69,5 +69,10 @@ h3 {
 
 footer {
     text-align: center;
+}
+
+.madik a {
+    font-size: larger;
+    color: #003147;
 }
 
