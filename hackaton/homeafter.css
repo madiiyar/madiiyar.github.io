@@ -14,12 +14,12 @@ body{
 }
 
 .header{
-    
+    height: 100px;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 100px;
+    padding: 0px 100px;
     background-color: white;
     display: flex;
     justify-content: space-between;
@@ -28,9 +28,9 @@ body{
 }
 
 
-.sona{
-    width: 50%;
-    height: 50%;
+.jihc{
+    width: 7%;
+    height: 7%;
 
 }
 table td img{
@@ -41,20 +41,23 @@ table td img{
 .navbar a {
     position: relative;
     font-size: 18px;
-    color: black;
+    color: blue;
     font-weight: 500;
     text-decoration: none;
-    margin-left: 40px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-right: 100px;
+    padding-top: 10px;
 }
 
 .navbar ::before{
     content: '';
     position: absolute;
     top: 100%;
-    left: 0;
+    left: 10px;
     width: 0;
     height: 2px;
-    background: black;
+    background: rgb(117, 117, 117);
     transition: .3s;
 }
 
@@ -96,74 +99,3 @@ padding-bottom: 100px;
 .img2{
 width: 100%;
 }
-
-footer {
-    background-color: black;
-    color: darkgray;
-    padding: 80px;
-    margin-left: -10px;
-    width: 100%;
-    margin-bottom: -25px;
-  }
-  footer .text {
-    max-width: 500px;
-    margin: auto;
-  }
-  footer .text h2 {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 19px;
-    margin-bottom: 20 px;
-  }
-  footer .text p {
-    line-height: 27px;
-  }
-  footer .contact-container {
-    padding: 40px ;
-    max-width: 1000px;
-    margin: auto;
-  }
-  footer .contact-container > div {
-    flex: 1;
-  }
-  footer .contact-container h3 {
-    font-size: 19px;
-    letter-spacing: 1.9px;
-  }
-  footer .social-media .links a {
-    margin: 0 10px;
-    font-size: 25px;
-  }
-  footer .newsletter input {
-    padding: 10px;
-    width: 270px;
-    background-color: #fff;
-    margin-left: -15px;
-  }
-  .links{
-    display: flex;
-    flex-direction: row;
-  }
-  .github{
-    height: 50px;
-    width: 50px;
-    margin-top: 17px;
-    margin-right: 16px;
-  }
-  .facebook{
-    height: 40px;
-    width: 40px;
-    margin-top: 24px;
-    margin-left: -1px;
-  }
-  .instagram{
-    height: 80px;
-    width: 100px;
-    margin-top: 4px;
-  }
-  .follow{
-    margin-left: 50px;
-  }
-  .newsletter{
-    margin-left: 730px;
-    margin-top: -147px;
-  }
