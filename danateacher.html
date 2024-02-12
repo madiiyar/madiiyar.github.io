@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn English with HTML and CSS</title>
+    <link rel="stylesheet" href="danateacher.css">
+</head>
+<body>
+    <header>
+        <h1>Learn English with HTML and CSS</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#html">HTML Basics</a></li>
+                <li><a href="#css">CSS Basics</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About</h2>
+            <p>Welcome to our website dedicated to learning English with HTML and CSS. Whether you're a beginner or looking to enhance your skills, you're in the right place!</p>
+        </section>
+
+        <section id="html">
+            <h2>HTML Basics</h2>
+            <p>HTML (HyperText Markup Language) is the standard markup language for creating web pages. It provides the structure of the page content. Here are some basic HTML tags:</p>
+            <ul>
+                <li>&lt;html&gt;</li>
+                <li>&lt;head&gt;</li>
+                <li>&lt;title&gt;</li>
+                <li>&lt;body&gt;</li>
+                <li>&lt;h1&gt;-&lt;h6&gt;</li>
+                <li>&lt;p&gt;</li>
+                <li>&lt;ul&gt;, &lt;ol&gt;, &lt;li&gt;</li>
+                <li>&lt;a&gt;</li>
+                <li>&lt;img&gt;</li>
+            </ul>
+        </section>
+
+        <section id="css">
+            <h2>CSS Basics</h2>
+            <p>CSS (Cascading Style Sheets) is a stylesheet language used to describe the presentation of a document written in HTML. Here are some basic CSS properties:</p>
+            <ul>
+                <li>color</li>
+                <li>font-size</li>
+                <li>margin</li>
+                <li>padding</li>
+                <li>background-color</li>
+                <li>border</li>
+                <li>text-align</li>
+                <li>font-family</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>If you have any questions or feedback, feel free to reach out to us:</p>
+            <form action="submit_contact_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Learn English with HTML and CSS. All rights reserved.</p>
+    </footer>
+</body>
+</html>
