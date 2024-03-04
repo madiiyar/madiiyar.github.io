@@ -1,39 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
-		<style>
-			.container{
-				width: 80%;
-				height: 100vh;
-				margin: auto 0;
-				padding: 50px 0;
-			}
-			img{
-				width: 200px;
-				height: 250px;
-			}
-			flex{
-				display: flex;
-				gap: 20px;
-			}
-		</style>
-	</head>
-	<body>
-		
-		<div class="container">
-      <div class="flex">
-        <img src="./img-bedford-bizarre.jpg" alt="">
-       <div class="div">
-        <h1>Madiyar AQylbek</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat doloribus, voluptatum magnam dignissimos commodi eligendi numquam tempore velit animi mollitia temporibus cumque quaerat, quia et repellendus eius porro. Voluptatibus, eveniet.</p>
-       </div>
-      </div>
-    </div>
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Basics</title>
+  <style>
+    table,
+    table * {
+      border: 1px solid #000;
+    }
+  </style>
+</head>
+<body>
 
+  <!-- Minimum valid markup for table -->
+  <table>
+    <tr>
+      <td>Front-end</td>
+    </tr>
+  </table>
+  <hr>
 
+  <!-- Table row with data -->
+  <table>
+    <tr>
+      <td>Front-end</td>
+      <td>Back-end</td>
+      <td>Full-stack</td>
+      <td>QA</td>
+    </tr>
+  </table>
+  <hr>
 
-	</body>
+  <!-- Table column with data -->
+  <table>
+    <tr>
+      <td>Front-end</td>
+    </tr>
+    <tr>
+      <td>Back-end</td>
+    </tr>
+    <tr>
+      <td>Full-stack</td>
+    </tr>
+    <tr>
+      <td>QA</td>
+    </tr>
+  </table>
+  <hr>
+
+  <!-- Simple example of table -->
+  <table>
+    <tr>
+      <td>Front-end</td>
+      <td>1 Person</td>
+    </tr>
+    <tr>
+      <td>Back-end</td>
+      <td>7 Persons</td>
+    </tr>
+    <tr>
+      <td>Full-stack</td>
+      <td>2 Persons</td>
+    </tr>
+    <tr>
+      <td>QA</td>
+      <td>5 Persons</td>
+    </tr>
+  </table>
+  <hr>
+
+  <!-- Table with caption -->
+  <table>
+    <caption>Team members list</caption>
+    <tr>
+      <td>Front-end</td>
+      <td>1 Person</td>
+    </tr>
+    <tr>
+      <td>Back-end</td>
+      <td>7 Persons</td>
+    </tr>
+    <tr>
+      <td>Full-stack</td>
+      <td>2 Persons</td>
+    </tr>
+    <tr>
+      <td>QA</td>
+      <td>5 Persons</td>
+    </tr>
+  </table>
+  <hr>
+
+  <!-- Table with semantic sections -->
+  <table>
+
+    <caption>Team members list</caption>
+
+    <thead>
+      <tr>
+        <td>Speciality</td>
+        <td>Quantity</td>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>Front-end</td>
+        <td>1 Person</td>
+      </tr>
+      <tr>
+        <td>Back-end</td>
+        <td>7 Persons</td>
+      </tr>
+      <tr>
+        <td>Full-stack</td>
+        <td>2 Persons</td>
+      </tr>
+      <tr>
+        <td>QA</td>
+        <td>5 Persons</td>
+      </tr>
+    </tbody>
+
+    <tfoot>
+      <tr>
+        <td></td>
+        <td>15</td>
+      </tr>
+    </tfoot>
+
+  </table>
+  <hr>
+
+  <!-- Colspan in tfoot and th tag for table head -->
+  <table>
+
+    <caption>Team members list</caption>
+
+    <thead>
+      <tr>
+        <th>Speciality</th>
+        <th>Quantity</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>Front-end</td>
+        <td>1 Person</td>
+      </tr>
+      <tr>
+        <td>Back-end</td>
+        <td>7 Persons</td>
+      </tr>
+      <tr>
+        <td>Full-stack</td>
+        <td>2 Persons</td>
+      </tr>
+      <tr>
+        <td>QA</td>
+        <td>5 Persons</td>
+      </tr>
+    </tbody>
+
+    <tfoot>
+      <tr>
+        <td colspan="2">15</td>
+      </tr>
+    </tfoot>
+
+  </table>
+  <hr>
+
+</body>
 </html>
