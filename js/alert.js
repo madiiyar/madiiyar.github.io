@@ -1,14 +1,12 @@
-"use strict"
+"use strict";
 // let age = prompt('Сколько тебе лет?', '');
 // alert(`Тебе ${age} лет!`);
-
 
 // let name = prompt('What is Your name?', '');
 // age = parseInt(age1) + 1
 // age1 = +age1 + 3
 // name = Number(name) + 1
 // alert(name);
-
 
 // let IsSudent = confirm('Are you student?')
 // alert(IsSudent)
@@ -69,4 +67,17 @@
 
 // alert(counter); // 2, обе строки сделали одно и то же
 
+// console.log("Madiyar");
 
+// function addvariable(a, b) {
+//   return a + b;
+//   let c = 10;
+// }
+
+// const a = 5;
+// const b = 5;
+
+// console.log(addvariable(a, b));
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// document.getElementById("demo").innerHTML = fruits.toString();
