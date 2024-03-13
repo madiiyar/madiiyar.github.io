@@ -147,7 +147,7 @@ function getNoteTemplate(note, index) {
             <span class="btn btn-small btn-${
               note.completed ? "warning" : "success"
             }" data-index="${index}" data-type="toggle">&check;</span>
-            <span class="btn btn-small btn-danger" data-type="remove" data-index="${index}">&times;</span>
+            <span class="btn btn-small btn-danger" data-index="${index}" data-type="remove">&times;</span>
           </span>
         </li>`;
 }
