@@ -81,3 +81,20 @@
 
 // const fruits = ["Banana", "Orange", "Apple", "Mango"];
 // document.getElementById("demo").innerHTML = fruits.toString();
+
+// let x, y, z; // Statement 1
+// x = 5; // Statement 2
+// y = 6; // Statement 3
+// z = x + y; // Statement 4
+
+// console.log("The value of z is " + z + ".");
+
+// How to create variables:
+// var x;
+// let y;
+
+// // How to use variables:
+// x = 5;
+// y = 6;
+// let z = x + y;
+// console.log(z);
