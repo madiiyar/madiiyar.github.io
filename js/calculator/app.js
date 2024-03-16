@@ -7,8 +7,8 @@ const minusBtn = document.getElementById("minus");
 const multipyBtn = document.getElementById("multiply");
 const divideBtn = document.getElementById("divide");
 let action = "+";
-console.log(input1.value);
-console.log(input2.value);
+// console.log(input1.value);
+// console.log(input2.value);
 
 plusBtn.onclick = function () {
   action = "+";
