@@ -1,0 +1,45 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+#countLabel {
+  font-size: 50px;
+  color: #333;
+  margin-bottom: 20px;
+  display: block;
+}
+
+button {
+  font-size: 32px;
+  padding: 10px 20px;
+  margin: 0 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #004aad;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #536d90;
+}
+
+#resetBtn {
+  background-color: #f44336;
+}
+
+#resetBtn:hover {
+  background-color: #812323;
+}
