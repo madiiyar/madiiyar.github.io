@@ -1,5 +1,7 @@
 let tabs = document.querySelectorAll(".tabs h3");
+console.log(tabs);
 let tabContents = document.querySelectorAll(".tab-content div");
+console.log(tabContents);
 tabs.forEach((tab, index) => {
   tab.addEventListener("click", () => {
     tabContents.forEach((content) => {
