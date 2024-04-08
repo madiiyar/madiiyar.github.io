@@ -150,3 +150,49 @@ const people = [
 
 // console.log(reversed);
 // console.log(+'');
+
+
+// if (4 == 4) {
+//     console.log('Ok');
+// } else {
+//     console.log('error');
+// }
+
+// const  num = +prompt('One number', '')
+
+// if (num < 49) {
+//     console.log('error');
+// } else if (num > 100){
+//     console.log('много');
+// } else {
+//     console.log('ok!');
+// }
+
+// const humburger = true
+// const fries = true
+// if (humburger && fries) {
+//    console.log('i am not hungry'); 
+// } else {
+//     console.log('i am hungry');
+// }
+
+// const humburger = 2
+// const fries = 1
+// if (humburger === 3 && fries) {
+//    console.log('good'); 
+// } else {
+//     console.log('we are hungry');
+// }
+
+// console.log(5 && 1 && 10);
+// console.log(1 && 5 && 9 && null);
+// console.log(0 && 'scnbihbi');
+// console.log(1 && 0);
+
+const humburger = 2
+const fries = 0
+if (humburger || fries) {
+   console.log('good'); 
+} else {
+    console.log('we are hungry');
+}

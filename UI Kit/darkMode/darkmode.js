@@ -6,7 +6,7 @@ function darkMode() {
 }
 function lightMode() {
   let element = document.body;
-  let content = document.getElementById("DarkModetext");
+  let content = document.getElementById("DarkMode");
   element.className = "light-mode";
   content.innerText = "Dark Mode is OFF";
 }
